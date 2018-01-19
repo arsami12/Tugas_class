@@ -20,7 +20,7 @@ void senjata::tembakan(string jarak_tembak){
 
 int main(){
 	// membuat objek dari class.
-	senjata senjata_M4A1, senjata_AK47, senjata_Uzi;
+	senjata senjata_M4A1, senjata_AK47, senjata_M249SAW;
 	
 	//memberi nilai dari objek yang telah kita buat.
 	senjata_M4A1.jumlahSenjata = 120;
@@ -38,4 +38,12 @@ int main(){
 	senjata_AK47.peluruSenjata = "Magazin box 30, 40 atau 75 peluru";
 	senjata_AK47.RataPeluruSenjata = "600 butir peluru/menit";
 	senjata_AK47.kecepatanSenjata = "710m/s";
+	//------------------------------------------------------------------------
+	senjata_M249SAW.jumlahSenjata = 50;
+	senjata_M249SAW.merkSenjata = "M249 SAW Scope";
+	senjata_M249SAW.beratSenjata = "6,9 Kg (Kosong)";
+	senjata_M249SAW.panjangSenjata = "465 mm";
+	senjata_M249SAW.peluruSenjata = "Magazin box dan Magazin STANAG 100, 500 atau 2500 peluru";
+	senjata_M249SAW.RataPeluruSenjata = "1000 butir peluru/menit";
+	senjata_M249SAW.kecepatanSenjata = "620m/s";
 }
