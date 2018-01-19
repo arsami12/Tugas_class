@@ -14,6 +14,10 @@ class senjata{
 		void tembakan(string jarak_tembak);
 };
 
+void senjata::tembakan(string jarak_tembak){
+	cout << "Jarak Tembakan : "<< jarak_tembak <<endl;
+}
+
 int main(){
 	
 }
