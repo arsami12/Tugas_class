@@ -44,6 +44,9 @@ int main(){
 	senjata_M249SAW.beratSenjata = "6,9 Kg (Kosong)";
 	senjata_M249SAW.panjangSenjata = "465 mm";
 	senjata_M249SAW.peluruSenjata = "Magazin box dan Magazin STANAG 100, 500 atau 2500 peluru";
+	
+	string pilihan;
+	cout << "Apa yang ingin kamu pilih : "; cin >> pilihan;
 	senjata_M249SAW.RataPeluruSenjata = "1000 butir peluru/menit";
 	senjata_M249SAW.kecepatanSenjata = "620m/s";
 }
