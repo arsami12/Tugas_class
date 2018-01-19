@@ -52,14 +52,22 @@ int main(){
 	
 	if(pilihan=="weapon1"){
 		cout << "TENTANG SENJATA M4A1 : "<<endl;
-			cout << "Jumlah Senjata : "<<(senjata_M4A1.jumlahSenjata)<<" unit"<<endl;
-			cout << "Merk Senjata : "<<(senjata_M4A1.merkSenjata)<<endl;
-			cout << "Berat Senjata : "<<(senjata_M4A1.beratSenjata)<<endl;
-			cout << "Panjang Senjata : "<<(senjata_M4A1.panjangSenjata)<<endl;
-			cout << "Kapasitas Magazin : "<<(senjata_M4A1.peluruSenjata)<<endl;
-			cout << "Rata-rata Tembakan : "<<(senjata_M4A1.RataPeluruSenjata)<<endl;
-			senjata_M4A1.tembakan("300 Meter (Efektif) / 800 Meter (Jangkauan Max)");
+		cout << "Jumlah Senjata : "<<(senjata_M4A1.jumlahSenjata)<<" unit"<<endl;
+		cout << "Merk Senjata : "<<(senjata_M4A1.merkSenjata)<<endl;
+		cout << "Berat Senjata : "<<(senjata_M4A1.beratSenjata)<<endl;
+		cout << "Panjang Senjata : "<<(senjata_M4A1.panjangSenjata)<<endl;
+		cout << "Kapasitas Magazin : "<<(senjata_M4A1.peluruSenjata)<<endl;
+		cout << "Rata-rata Tembakan : "<<(senjata_M4A1.RataPeluruSenjata)<<endl;
+		senjata_M4A1.tembakan("300 Meter (Efektif) / 800 Meter (Jangkauan Max)");
+	}else if(pilihan=="weapon2"){
+		cout << "TENTANG SENJATA AK47 : "<<endl;
+		cout << "Jumlah Senjata : "<<(senjata_AK47.jumlahSenjata)<<" unit"<<endl;
+		cout << "Merk Senjata : "<<(senjata_AK47.merkSenjata)<<endl;
+		cout << "Berat Senjata : "<<(senjata_AK47.beratSenjata)<<endl;
+		cout << "Panjang Senjata : "<<(senjata_AK47.panjangSenjata)<<endl;
+		cout << "Kapasitas Magazin : "<<(senjata_AK47.peluruSenjata)<<endl;
+		cout << "Rata-rata Tembakan : "<<(senjata_AK47.RataPeluruSenjata)<<endl;
+		senjata_M4A1.tembakan("300 Meter (Efektif)");
 
 }
-
 }
