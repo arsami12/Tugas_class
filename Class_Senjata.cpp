@@ -19,5 +19,7 @@ void senjata::tembakan(string jarak_tembak){
 }
 
 int main(){
-	
+	// membuat objek dari class
+	senjata senjata_M4A1, senjata_AK47, senjata_Uzi;
+		
 }
