@@ -44,9 +44,22 @@ int main(){
 	senjata_M249SAW.beratSenjata = "6,9 Kg (Kosong)";
 	senjata_M249SAW.panjangSenjata = "465 mm";
 	senjata_M249SAW.peluruSenjata = "Magazin box dan Magazin STANAG 100, 500 atau 2500 peluru";
+	senjata_M249SAW.RataPeluruSenjata = "1000 butir peluru/menit";
+	senjata_M249SAW.kecepatanSenjata = "620m/s";
 	
 	string pilihan;
 	cout << "Apa yang ingin kamu pilih : "; cin >> pilihan;
-	senjata_M249SAW.RataPeluruSenjata = "1000 butir peluru/menit";
-	senjata_M249SAW.kecepatanSenjata = "620m/s";
+	
+	if(pilihan=="weapon1"){
+		cout << "TENTANG SENJATA M4A1 : "<<endl;
+			cout << "Jumlah Senjata : "<<(senjata_M4A1.jumlahSenjata)<<" unit"<<endl;
+			cout << "Merk Senjata : "<<(senjata_M4A1.merkSenjata)<<endl;
+			cout << "Berat Senjata : "<<(senjata_M4A1.beratSenjata)<<endl;
+			cout << "Panjang Senjata : "<<(senjata_M4A1.panjangSenjata)<<endl;
+			cout << "Kapasitas Magazin : "<<(senjata_M4A1.peluruSenjata)<<endl;
+			cout << "Rata-rata Tembakan : "<<(senjata_M4A1.RataPeluruSenjata)<<endl;
+			senjata_M4A1.tembakan("300 Meter (Efektif) / 800 Meter (Jangkauan Max)");
+
+}
+
 }
