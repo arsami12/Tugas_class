@@ -30,4 +30,12 @@ int main(){
 	senjata_M4A1.peluruSenjata = "Magazin box 30, 50 atau 150 peluru";
 	senjata_M4A1.RataPeluruSenjata = "700-950 butir peluru/menit";
 	senjata_M4A1.kecepatanSenjata = "905m/s (2.970 ft/s)";
+	//-----------------------------------------------------------------------
+	senjata_AK47.jumlahSenjata = 150;
+	senjata_AK47.merkSenjata = "AK47 Scope with Dual Slot";
+	senjata_AK47.beratSenjata = "4,3 Kg (Terisi Peluru)";
+	senjata_AK47.panjangSenjata = "415 mm (16,3 inchi)";
+	senjata_AK47.peluruSenjata = "Magazin box 30, 40 atau 75 peluru";
+	senjata_AK47.RataPeluruSenjata = "600 butir peluru/menit";
+	senjata_AK47.kecepatanSenjata = "710m/s";
 }
