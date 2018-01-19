@@ -68,6 +68,14 @@ int main(){
 		cout << "Kapasitas Magazin : "<<(senjata_AK47.peluruSenjata)<<endl;
 		cout << "Rata-rata Tembakan : "<<(senjata_AK47.RataPeluruSenjata)<<endl;
 		senjata_M4A1.tembakan("300 Meter (Efektif)");
-
+	}else if(pilihan=="weapon3"){
+		cout << "TENTANG SENJATA M249 SAW : "<<endl;
+		cout << "Jumlah Senjata : "<<(senjata_M249SAW.jumlahSenjata)<<" unit"<<endl;
+		cout << "Merk Senjata : "<<(senjata_M249SAW.merkSenjata)<<endl;
+		cout << "Berat Senjata : "<<(senjata_M249SAW.beratSenjata)<<endl;
+		cout << "Panjang Senjata : "<<(senjata_M249SAW.panjangSenjata)<<endl;
+		cout << "Kapasitas Magazin : "<<(senjata_M249SAW.peluruSenjata)<<endl;
+		cout << "Rata-rata Tembakan : "<<(senjata_M249SAW.RataPeluruSenjata)<<endl;
+		senjata_M4A1.tembakan("1000 Meter (Efektif)");
 }
 }
